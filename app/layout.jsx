@@ -1,17 +1,20 @@
 import localFont from "next/font/local";
 import "./globals.css";
 
-//component
+// Komponen
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-//theme provider
+
+// Theme provider
 import { ThemeProvider } from "@/components/ThemeProvider";
 
+// Definisi font lokal
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -28,11 +31,12 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      > <ThemeProvider attribute='class' defaultTheme='light'>
-          <Header/>
+      >
+        <ThemeProvider attribute="class" defaultTheme="light">
+          <Header />
           {children}
-          <Footer/>
-      </ThemeProvider>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
