@@ -106,7 +106,7 @@ const Work = () => {
                     <h2 className="section-title mb-4">Latest Projects</h2>
                     <p className="subtitle mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, maiores.</p>
                     <Link href='/project'>
-                        <Button className='flex items-center justify-center gap-x-2 bg-primary text-white px-8 py-3 rounded-full font-semibold border border-transparent w-full md:w-auto'>All project</Button>
+                        <Button className='flex items-center justify-center bg-primary text-white px-8 py-3 rounded-full font-semibold border border-transparent hover:bg-primary/80 transition w-full h-full'>All project</Button>
                     </Link>
                 </div>
                 <div className='xl:max-w-[1000px] xl:absolute right-0 top-0'>
