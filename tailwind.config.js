@@ -72,6 +72,8 @@ module.exports = {
 		  hero_shape2_dark: 'url(/hero/shape-2-dark.svg)',
 		  work_project_bg_light: 'url(/work/project-bg-light.png)',
 		  work_project_bg_dark: 'url(/work/project-bg-dark.png)',
+		  contact_illustration_light: 'url(/contact/illustration-light.svg)',
+		  contact_illustration_dark: 'url(/contact/illustration-dark.svg)',
 		},
 		borderRadius: {
 		  lg: 'var(--radius)',

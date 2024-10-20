@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Button } from "@radix-ui/themes";
+import { Button } from "@/components/ui/button";
 import { Download, Send } from "lucide-react";
 import DevImg from "./DevImg";
 import Badge from "./Badge";

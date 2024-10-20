@@ -1,4 +1,4 @@
-import { Button } from "@radix-ui/themes";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const Cta = () => {
@@ -10,7 +10,7 @@ const Cta = () => {
                         Prepared to turn your ideas into reality? I'm here to help
                     </h2>
                     <Link href='/contact'>
-                        <Button className='flex items-center justify-center bg-primary text-white px-8 py-3 rounded-full font-semibold border border-transparent hover:bg-primary/80 transition w-full h-full'>Contact Me</Button>
+                        <Button >Contact Me</Button>
                     </Link>
                 </div>
             </div>

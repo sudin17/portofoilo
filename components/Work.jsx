@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { Button } from './ui/button';
+import { Button } from '@/components/ui/button';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -106,7 +106,7 @@ const Work = () => {
                     <h2 className="section-title mb-4">Latest Projects</h2>
                     <p className="subtitle mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, maiores.</p>
                     <Link href='/project'>
-                        <Button className='flex items-center justify-center bg-primary text-white px-8 py-3 rounded-full font-semibold border border-transparent hover:bg-primary/80 transition w-full h-full'>All project</Button>
+                        <Button >All project</Button>
                     </Link>
                 </div>
                 <div className='xl:max-w-[1000px] xl:absolute right-0 top-0'>
