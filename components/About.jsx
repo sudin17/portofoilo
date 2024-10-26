@@ -10,7 +10,7 @@ const infoData = [
     },
     {
         icon: <PhoneCall size={20} />,
-        text: '+62 81703372315',
+        text: '+62 89669750498',
     },
     {
         icon: <MailIcon size={20} />,
@@ -22,11 +22,11 @@ const infoData = [
     },
     {
         icon: <GraduationCap size={20} />,
-        text: 'Master on Computer Science',
+        text: "Master's in Computer Science",
     },
     {
         icon: <HomeIcon size={20} />,
-        text: 'Indonesia',
+        text: 'Bali, Indonesia',
     },
 ];
 
@@ -36,8 +36,8 @@ const qualificationData = [
         data: [
             {
                 university: 'Institut Bisnis dan Teknologi Indonesia',
-                qualification: 'Bachelor of Sciense',
-                years: '2022-2026',
+                qualification: "Master's in Computer Science",
+                years: '2022-Now',
             },
             {
                 university: 'Man 1 Lombok Tengah',
@@ -68,16 +68,31 @@ const skillData = [
         title: 'skills',
         data: [
             {
-                name: 'Wordpress Developer',
+                name: 'WordPress Development',
             },
             {
-                name: 'Website Developer',
+                name: 'SEO (Search Engine Optimization)',
             },
             {
-                name: 'PHP & Java Scrip',
+                name: 'UI/UX Design',
             },
             {
-                name: 'Laravel, next js, tailwind css',
+                name: 'Responsive Design',
+            },
+            {
+                name: 'Website Performance Optimization',
+            },
+            {
+                name: 'Content Management',
+            },
+            {
+                name: 'Database Management',
+            },
+            {
+                name: 'Security Best Practices',
+            },
+            {
+                name: 'PHP ( Laravel, Codeigniter )',
             },
         ],
     },
@@ -123,9 +138,9 @@ const About = () => {
                         <div className="text-lg mt-12 xl:mt-8">
                             <TabsContent value='personal'>
                                 <div className="px-10 md:px-0 text-center xl:text-left">
-                                    <h3 className="h3 mb-4">Unmatched service quality for over 2 years</h3>
+                                    <h3 className="h3 mb-4">With over 2 years of experience</h3>
                                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                                        i spesialize in crafting intuitivewebsites with cutting-edge technology, delivering dynamic and engaging user experiance.
+                                    I excel in creating user-friendly websites utilizing WordPress and the latest technologies, ensuring captivating and interactive experiences for all users.
                                     </p>
                                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                                         {infoData.map((item, index) => {

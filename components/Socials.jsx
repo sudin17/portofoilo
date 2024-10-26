@@ -12,23 +12,23 @@ import Link from 'next/link';
 
 const icons = [
     {
-        path: '/instagram',
+        path: 'https://www.instagram.com/sudinnn_17',
         name: <RiInstagramFill />
     },
     {
-        path: '/linkedin',
+        path: 'https://www.linkedin.com/in/syamsuddin-25bab5270',
         name: <RiLinkedinFill />
     },
     {
-        path: '/github',
+        path: 'https://github.com/sudin17',
         name: <RiGithubFill />
     },
     {
-        path: '/facebook',
+        path: 'https://web.facebook.com/profile.php?id=100020448042297&locale=id_ID',
         name: <RiFacebookFill />
     },
     {
-        path: '/install',
+        path: 'https://wa.me/089669750498',
         name: <RiWhatsappFill />
     },
 ]
