@@ -9,7 +9,7 @@ import ProjectCard from './ProjectCard';
 
 const projectData = [
     {
-        image: '/work/3.png',
+        image: '/work/6.png',
         category: 'wordpress',
         name: 'Nexa Website',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit quae eaque?',
@@ -89,7 +89,7 @@ const projectData = [
         github: '/',
     },
     {
-        image: '/work/4.png',
+        image: '/work/5.png',
         category: 'react js',
         name: 'Nexa Website',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit quae eaque?',
@@ -104,7 +104,7 @@ const Work = () => {
             <div className="container mx-auto">
                 <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col xl:justify-start xl:items-start justify-center items-center">
                     <h2 className="section-title mb-4">Latest Projects</h2>
-                    <p className="subtitle mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, maiores.</p>
+                    <p className="subtitle mb-8">This is the latest project. Click the button below to view all projects.</p>
                     <Link href='/project'>
                         <Button >All project</Button>
                     </Link>

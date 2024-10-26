@@ -5,7 +5,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
     {
-        image: '/work/3.png',
+        image: '/work/6.png',
         category: 'wordpress',
         name: 'Nexa Website',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit quae eaque?',
@@ -29,7 +29,7 @@ const projectData = [
         github: '/',
     },
     {
-        image: '/work/1.png',
+        image: '/work/6.png',
         category: 'react js',
         name: 'Nexa Website',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit quae eaque?',

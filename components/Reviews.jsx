@@ -15,33 +15,33 @@ import { Pagination } from 'swiper/modules';
 const reviewData = [
     {
         avatar: '/reviews/avatar-1.png',
-        name: 'Ricard',
-        job: 'Sales',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi inventore magni exercitationem suscipit corporis qui!'
+        name: 'James Mitchell',
+        job: 'Freelance Photographer',
+        review: 'Sudin created an outstanding portfolio landing page for me. The design is professional and showcases my work beautifully. His skills and approach in understanding my needs were exactly what I was looking for.'
     },
     {
         avatar: '/reviews/avatar-2.png',
-        name: 'Ricard',
-        job: 'Sales',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi inventore magni exercitationem suscipit corporis qui!'
+        name: 'Emily Carter',
+        job: 'Marketing Executive, Acardia Resto Ubud',
+        review: 'Sudin expertise was evident in the way he optimized our restaurant’s website. The result is a beautifully designed site that not only looks great but also functions seamlessly, attracting more visitors and online reservations.'
     },
     {
-        avatar: '/reviews/avatar-3.png',
-        name: 'Ricard',
-        job: 'Sales',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi inventore magni exercitationem suscipit corporis qui!'
+        avatar: '/reviews/pfp.jpeg',
+        name: 'Dimas Ardianto',
+        job: 'Online Store Manager',
+        review: 'We were highly impressed with Sudin expertise in building our e-commerce site. The modern design and smooth functionality improved the user experience. Highly recommended!'
     },
     {
         avatar: '/reviews/avatar-4.png',
-        name: 'Ricard',
-        job: 'Sales',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi inventore magni exercitationem suscipit corporis qui!'
+        name: 'Maria ',
+        job: 'Digital Marketing Specialist',
+        review: 'The SEO work done by Syamsuddin really helped our website gain more organic traffic. He’s meticulous and consistently provides updates on the progress.'
     },
     {
         avatar: '/reviews/avatar-5.png',
         name: 'Ricard',
-        job: 'Sales',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi inventore magni exercitationem suscipit corporis qui!'
+        job: 'Furniture Store Owner',
+        review: "Working with Syamsuddin was amazing! He professionally built our business landing page, and it's highly responsive, which boosted our conversions. His service was very friendly and communicative."
     },
 ];
 

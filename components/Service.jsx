@@ -11,18 +11,18 @@ import { Description } from "@radix-ui/react-dialog";
 const serviceData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-        title: 'Web Design',
-        Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias libero aspernatur minima velit perspiciatis accusantium, consectetur, explicabo vitae quas voluptates saepe blanditiis? Quae in voluptas, ducimus dolores et corporis doloremque.'
+        title: 'Landing Page Development',
+        Description: 'Designing and developing attractive and responsive landing pages to boost conversions. Utilizing A/B testing and analytics to optimize design elements and content, while integrating effective registration forms or calls to action (CTAs).'
     },
     {
         icon: <Blocks size={72} strokeWidth={0.8} />,
-        title: 'Web Developer',
-        Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias libero aspernatur minima velit perspiciatis accusantium, consectetur, explicabo vitae quas voluptates saepe blanditiis? Quae in voluptas, ducimus dolores et corporis doloremque.'
+        title: 'E-commerce Website Creation',
+        Description: 'Building e-commerce sites using WooCommerce, including setting up product catalogs, payment systems, inventory management, and shipping options. Focusing on a seamless user experience to increase conversion rates and customer retention.'
     },
     {
         icon: <Gem size={72} strokeWidth={0.8} />,
-        title: 'App Development',
-        Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias libero aspernatur minima velit perspiciatis accusantium, consectetur, explicabo vitae quas voluptates saepe blanditiis? Quae in voluptas, ducimus dolores et corporis doloremque.'
+        title: 'SEO Services',
+        Description: 'Implementing advanced SEO strategies for WordPress sites to enhance search visibility. This includes keyword research, on-page optimization, backlink management, and using analytics tools to track performance and optimize campaigns.'
     },
 ];
 
